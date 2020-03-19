@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background: #efeff4;
+}
+
+.hidden{
+    display: none !important;
+}
+.container{
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+}
+#one-tarif{
+    overflow: hidden;
+}
+
+#choice-tarif{
+    overflow: hidden;
+}
+
+.speed {
+    width: 33%;
+    height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.tarifs{
+    position: relative; 
+    background: #ffffff;
+    margin:20px 0;
+    border: 1px solid #c8c7cc;
+}
+.tarif-options{
+    margin: 0 0 0 20px;
+    border-bottom: 1px solid #c8c7cc;
+    position: relative;
+
+}
+.tarif-options > h3{
+    font-weight: bold;
+}
+.tarif-options > p{
+    font-size: 20px;
+   
+}
+.tarifs > h2 {
+    color: #82c12b;
+    margin: 0 0 12px 20px;
+    padding:15px 0 15px 0px;
+    border-bottom: 1px solid #c8c7cc;
+
+}
+.tarif-link{
+    font-size: 23px;
+    margin: 15px 20px;
+
+}
+.tarif-link a{
+    text-decoration: none;
+    color: #007aff;
+}
+
+.one-tarif-title{
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #c8c7cc;
+    margin: 20px 0;
+}
+.one-tarif-title h3{
+    text-align: center;
+    padding: 10px 0;
+}
+.one-tarif{
+    position: relative; 
+    background: #ffffff;
+    margin: 20px 0;
+    border: 1px solid #c8c7cc;
+}
+
+.one-tarif > h3{
+    color: #82c12b;
+    margin: 0 0 12px 20px;
+    padding:15px 0 15px 0px;
+    border-bottom: 1px solid #c8c7cc;
+}
+.one-tarif-options {
+    margin: 0 0 20px 20px;
+}
+.one-tarif-options{
+    font-size: 20px;
+}
+
+.choice-tarif{
+    position: relative; 
+    background: #ffffff;
+    margin: 20px 0;
+    border: 1px solid #c8c7cc;
+
+}
+.choice-tarif h3{
+    color: #82c12b;
+    margin: 0 0 12px 20px;
+    padding:15px 0 15px 0px;
+    border-bottom: 1px solid #c8c7cc;
+}
+.choice-tarif h4{
+    margin: 0 0 12px 20px;
+}
+
+.choice-tarif-options{
+    margin: 0 0 12px 20px;
+    font-size: 20px;
+}
+.choice-tarif-date{
+    margin: 0 0 12px 20px;
+    color: #aaaaaa;
+    font-size: 20px;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+
+.choice-tarif-title{
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #c8c7cc;
+    margin: 20px 0;
+}
+
+.choice-tarif-title h3{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.button {
+    padding:15px 15px 15px 15px;
+    margin: 10px 20px;
+    width: auto;
+    background: #82c12b;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.back, .home {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    font-size: 40px;
+    color: #c8c7cc;
+}
+.go{
+    position: absolute;
+    /* top: 50%; */
+    right: 20px;
+    font-size: 30px;
+    color: #c8c7cc;
+}
+
+@media only screen and (min-width: 576px){
+
+.go, .home {
+    display: none;
+}
+.speed {
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+}
+.tarif-options > p{
+    font-size: 15px;
+}
+.tarif-link{
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 768px){
+    .tarif-options > p{
+        font-size: 20px;   
+    }
+}
+
+
+
